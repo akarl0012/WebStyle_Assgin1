@@ -25,6 +25,7 @@ p{
    font-family: Lucida Sans;
 }
 
+/* added two new rules to change the color of the paragraph text to green and purple. */
 p{ 
    color: green;
 }
