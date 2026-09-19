@@ -14,11 +14,7 @@ p{
    color: red;
    line-height: 1.5em;
 }
-
-/* grouping Intro header and Sumbit header together */
-#intro, .summit{
-
-}
+/* Group both intro and summit into element types into one rule using a comma */
 
 /* changed intro paragraph to cursive font */
 #intro {
