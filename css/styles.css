@@ -6,10 +6,23 @@
    h1 {
    background-color: tan; 
 }
-/* changed sub headers main color  */
+/* changed sub headers main color, change colour and height on paragraphs  */
 h2 { 
    color: blue;
 }
+p{
+   color: red;
+   line-height: 1.5em;
+}
 
+/* grouping Intro header and Sumbit header together */
+#intro, .summit{
+
+}
+
+/* changed intro paragraph to cursive font */
+#intro {
+   font-family: cursive;
+}
 
 
