@@ -1,8 +1,15 @@
 /* MTM1544 Week 1: your stylesheet.
    This file is already linked from index.html. Write your rules below.
    Start by changing the body background colour and saving, to confirm the link works. */
-h1 {
+
+   /* changed main header BG color  */
+   h1 {
    background-color: tan; 
 }
-/* changed main header BG color  */
+/* changed sub headers main color  */
+h2 { 
+   color: blue;
+}
+
+
 
