@@ -16,9 +16,12 @@ p{
 }
 /* Group both intro and summit into element types into one rule using a comma */
 
-/* changed intro paragraph to cursive font */
+/* changed intro paragraph to cursive font using a class */
 #intro {
    font-family: cursive;
 }
-
+/* changed summit header to Lucida Sans font using a id */
+.summit {
+   font-family: Lucida Sans;
+}
 
