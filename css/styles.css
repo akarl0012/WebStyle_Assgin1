@@ -43,7 +43,8 @@ p{
 /* step 2 adding Box elements to a section  */
 div{
    background-color: greenyellow;
+   width: 70%;
    padding: 1em;
-   border: 5px  black;
+   border: 5px  solid black;
    margin: 40px; 
 }
