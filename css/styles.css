@@ -43,6 +43,7 @@ p{
 /* step 2 adding Box elements to a section  */
 /* step 3 added width to box element  */
 /* step 4 added MLA and MRA to box  */
+
 div{
    background-color: greenyellow;
    width: 70%;
@@ -50,4 +51,12 @@ div{
    border: 5px  solid black;
    margin: 40px; 
    margin-left: auto;  margin-right: auto;
+   
+   /* step 5 adding margins to the seperate paragraphs  */
+   .a {
+      margin-bottom: 40px;
+   }
+   .b {
+      margin-top: 20px;
+   }
 }
