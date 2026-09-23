@@ -41,10 +41,13 @@ p{
 /* This is the start of Week 2 Assignment  */
 
 /* step 2 adding Box elements to a section  */
+/* step 3 added width to box element  */
+/* step 4 added MLA and MRA to box  */
 div{
    background-color: greenyellow;
    width: 70%;
    padding: 1em;
    border: 5px  solid black;
    margin: 40px; 
+   margin-left: auto;  margin-right: auto;
 }
