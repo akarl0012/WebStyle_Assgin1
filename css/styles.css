@@ -2,6 +2,11 @@
    This file is already linked from index.html. Write your rules below.
    Start by changing the body background colour and saving, to confirm the link works. */
 
+   /* added box sizing border box */
+*{
+   box-sizing: border-box;
+}
+
    /* changed main header BG color  */
    h1 {
    background-color: tan; 
