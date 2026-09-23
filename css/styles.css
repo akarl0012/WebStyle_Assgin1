@@ -37,3 +37,13 @@ p{
 p{
    color: purple;
 }
+
+/* This is the start of Week 2 Assignment  */
+
+/* step 2 adding Box elements to a section  */
+div{
+   background-color: greenyellow;
+   padding: 1em;
+   border: green;
+   margin: 40px; 
+}
