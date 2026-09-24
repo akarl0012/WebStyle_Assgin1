@@ -72,6 +72,17 @@ div{
       font-family:'Times New Roman', Times, Arial, "sans-serif";
       font-size: 12rem;
       line-height: 1.7;
-
-   }
+ }
+ /* step 2, added different font sizes and hights to H1 and H2 as well as text wrap  */
+ h1{
+   font-size: 10rem;
+   line-height: 1.5;
+   text-wrap: balance;
+ }
+ h2{
+   font-size: 5rem;
+   line-height: 1.5;
+   text-wrap: balance;
+   font-family: "Limelight", sans-serif;
+ }
 }
