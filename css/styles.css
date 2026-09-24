@@ -80,14 +80,15 @@ div{
    line-height: 1.5;
    text-wrap: balance;
  }
-/* Step 3 added limelight font  */
+/* Step 3 added limelight font and font weight  */
  h2{
    font-size: 3rem;
    line-height: 1.5;
    text-wrap: balance;
    font-family: Limelight, Times, sans-serif;
+   font-weight: lighter;
  }
-/* step 3 part 1 added HSL colour red for testing  */
+/* step 4 added HSL and OKLCH colour red for testing  */
  p {
   font-family: system-ui, sans-serif;
   padding: 8px 14px;
