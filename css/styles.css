@@ -87,16 +87,21 @@ div{
    text-wrap: balance;
    font-family: Limelight, Times, sans-serif;
  }
- 
+/* step 3 part 1 added HSL colour red for testing  */
  p {
   font-family: system-ui, sans-serif;
   padding: 8px 14px;
   margin: 0 0 4px 0;
   color: black;
  }
+/* added red HSL 4 coloumns  */
+.hsl-r1 { background-color: hsl(0, 90%, 80%); }
+.hsl-r2 { background-color: hsl(0, 90%, 60%); }
+.hsl-r3 { background-color: hsl(0 90% 40%); }
+.hsl-r4 { background-color: hsl(0, 90%, 20%); }
 
-.hsl-r1{ background-color: red(110, 247, 124); }
-.hsl-r2{ background-color: red(137, 90%, 60%); }
-.hsl-r3{ background-color: red(220 90% 40%); }
-.hsl-r4{ background-color: red(220 90% 20%); }
-
+/* added oklch to test HSL comparision  */
+.ok90 { background-color: oklch(80.153% 0.11348 19.826); color: white; }
+.ok70 { background-color: oklch(66.004% 0.16607 22.723); color: white; }
+.ok50 { background-color: oklch(47.066% 0.16619 26.419); color: white; }
+.ok30 { background-color: oklch(32.042% 0.13149 29.223); color: white; }
