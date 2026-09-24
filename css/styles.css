@@ -106,3 +106,10 @@ div{
 .ok70 { background-color: oklch(66.004% 0.16607 22.723); color: white; }
 .ok50 { background-color: oklch(47.066% 0.16619 26.419); color: white; }
 .ok30 { background-color: oklch(32.042% 0.13149 29.223); color: white; }
+
+/* added hover to link in html  */
+a:hover{
+  color: pink;
+  background-color: rgb(3, 156, 39);
+  text-decoration: underline;
+}
