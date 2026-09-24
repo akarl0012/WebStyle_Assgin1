@@ -52,6 +52,7 @@ div{
    margin: 40px; 
    margin-left: auto;  margin-right: auto;
    
+   
    /* step 5 adding margins to the seperate paragraphs  */
    .a {
       margin-bottom: 80px;
@@ -79,10 +80,13 @@ div{
    line-height: 1.5;
    text-wrap: balance;
  }
+/* Step 3 added limelight font  */
  h2{
    font-size: 5rem;
    line-height: 1.5;
    text-wrap: balance;
-   font-family: "Limelight", sans-serif;
+   font-family: Limelight, Times, sans-serif;
  }
+ 
+
 }
