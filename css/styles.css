@@ -13,7 +13,7 @@
 }
 /* changed sub headers main color, change colour and height on paragraphs  */
 h2 { 
-   color: blue;
+   color: #05059a;
 }
 p{
    color: red;
@@ -45,7 +45,7 @@ p{
 /* step 4 added MLA and MRA to box  */
 
 div{
-   background-color: greenyellow;
+   background-color: #adff2f;
    width: 70%;
    padding: 1em;
    border: 5px  solid black;
@@ -113,3 +113,5 @@ a:hover{
   background-color: rgb(3, 156, 39);
   text-decoration: underline;
 }
+
+/* tested bg box colours and font colours with contrast checker  */
