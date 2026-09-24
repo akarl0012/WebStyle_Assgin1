@@ -64,4 +64,14 @@ div{
       aspect-ratio: 16 / 9;
       width: 100%;
    }
+
+   /* This is the start of Week 3 Assignment: T&CP*/
+
+   /* step 1, added font family, size and line weight  */
+   body{
+      font-family:'Times New Roman', Times, Arial, "sans-serif";
+      font-size: 12rem;
+      line-height: 1.7;
+
+   }
 }
