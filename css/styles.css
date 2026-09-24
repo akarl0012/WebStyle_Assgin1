@@ -51,7 +51,7 @@ div{
    border: 5px  solid black;
    margin: 40px; 
    margin-left: auto;  margin-right: auto;
-   
+}
    
    /* step 5 adding margins to the seperate paragraphs  */
    .a {
@@ -71,22 +71,32 @@ div{
    /* step 1, added font family, size and line weight  */
    body{
       font-family:'Times New Roman', Times, Arial, "sans-serif";
-      font-size: 12rem;
+      font-size: 2rem;
       line-height: 1.7;
  }
  /* step 2, added different font sizes and hights to H1 and H2 as well as text wrap  */
  h1{
-   font-size: 10rem;
+   font-size: 5rem;
    line-height: 1.5;
    text-wrap: balance;
  }
 /* Step 3 added limelight font  */
  h2{
-   font-size: 5rem;
+   font-size: 3rem;
    line-height: 1.5;
    text-wrap: balance;
    font-family: Limelight, Times, sans-serif;
  }
  
+ p {
+  font-family: system-ui, sans-serif;
+  padding: 8px 14px;
+  margin: 0 0 4px 0;
+  color: black;
+ }
 
-}
+.hsl-r1{ background-color: red(110, 247, 124); }
+.hsl-r2{ background-color: red(137, 90%, 60%); }
+.hsl-r3{ background-color: red(220 90% 40%); }
+.hsl-r4{ background-color: red(220 90% 20%); }
+
