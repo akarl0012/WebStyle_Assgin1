@@ -159,17 +159,22 @@ ul li:nth-child(odd) {
 
 /* step 4 Three rules targeting same element  */
 
-/* This one won out due to being higher up in the cascade and simplified  */
-.TD {
+/* * I think this one should be the prominant since class is still first  */
+p.TD {
    color: purple;
 }
-
-#FS p {
+/* This one won out due to ID's being higher in the order.  */
+#FS {
    color: teal;
 }
 
-/* I think this one should be the prominant since class is still first  */
-.TD #FS p {
+ p {
    color: brown;
 
+}
+
+/* step 6 adding where bar to headers as per example  */
+/* this changed the headers for the main title and the h4  */
+:where(h1, h2, h3, h4, h5) {
+   color: peru;
 }
