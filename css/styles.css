@@ -157,4 +157,19 @@ ul li:nth-child(odd) {
   color: #94a3b8;
 }
 
+/* step 4 Three rules targeting same element  */
 
+/* This one won out due to being higher up in the cascade and simplified  */
+.TD {
+   color: purple;
+}
+
+#FS p {
+   color: teal;
+}
+
+/* I think this one should be the prominant since class is still first  */
+.TD #FS p {
+   color: brown;
+
+}
