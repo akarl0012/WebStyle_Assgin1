@@ -120,7 +120,15 @@ a:hover, a:focus {
   border: 2px solid black
   text-decoration: underline;
 }
-
+/* step 2:  */
+/* added bg colour to first child to highlight it from list  */
+ul li:first-child {
+   background-color: rgb(119, 251, 158);
+}
+/* added text color to every odd numbered point in the list   */
+ul li:nth-child(odd) {
+  color: rgb(17, 113, 150);
+}
 /* tested bg box colours and font colours with contrast checker  */
 
 
