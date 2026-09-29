@@ -108,10 +108,20 @@ div{
 .ok30 { background-color: oklch(32.042% 0.13149 29.223); color: white; }
 
 /* added hover to link in html  */
-a:hover{
-  color: pink;
-  background-color: rgb(3, 156, 39);
+
+/* This is the start of Week 4 Assignment: Specificity in Practice  */
+
+/* step 1 adding hover and style change to link's for better visibility  */
+/* changeing colours from red and green to yellow and purple for better visability  */
+
+a:hover, a:focus {
+  color: rgb(243, 255, 77);
+  background-color: rgb(127, 0, 108);
+  border: 2px solid black
   text-decoration: underline;
 }
 
 /* tested bg box colours and font colours with contrast checker  */
+
+
+
