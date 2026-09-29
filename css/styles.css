@@ -131,5 +131,30 @@ ul li:nth-child(odd) {
 }
 /* tested bg box colours and font colours with contrast checker  */
 
+/* step 3 adding a before  */
+/* added decrotive before  */
+/* This is safe because it is decrotive and is not important information. It adds flurish to the page.   */
+.note {
+  font-family: system-ui, sans-serif;
+}
+.note::before {
+  content: "Note: ";
+  font-weight: 700;
+  color: #b45309;
+}
+.quoted {
+  font-family: Georgia, serif;
+  font-style: italic;
+  margin: 0;
+  padding-left: 1.5rem;
+  border-left: 4px solid #cbd5e1;
+}
+.quoted::before {
+  content: open-quote;
+  font-size: 2rem;
+  line-height: 0;
+  vertical-align: -0.4rem;
+  color: #94a3b8;
+}
 
 
